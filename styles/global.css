@@ -5,37 +5,166 @@
 }
 
 nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  display: block;
   align-items: center;
+  text-align: center;
+  justify-content: space-around;
   /* colours */
-  background: #677267;
-  height: 46px;
+  background: #3A403A;
+  /* height: 2.5em; */
+}
+nav hr {
+  width: 75%;
+  margin: 0.25em 12.5% 0.25em 12.5%;
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
 }
 #nav_contact_button {
-  background: #3A403A;
-  color: #fff;
+  background: #A3A3A3;
+  color: #000;
   padding-left: 1em;
   padding-right: 1em;
   border-radius: 25px;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 3em;
   display: flex;
   align-items: center;
   text-align: center;
   border-style: none;
+  margin: 0.25em;
 }
+
 #logo {
   color: #fff;
+  font-size: 3em;
 }
 #socialmedia {
   display: flex;
-  fill: #fff;
-
+  fill: #A3A3A3;
+  /* margin: 0.5em; */
 }
 #socialmedia svg {
+  margin: 0 0.5em 0 0.5em;
+}
+div.page {
+  min-height: calc(100vh - 2.5em);
+  top: 2.5em;
+}
+#homepage {
+  background: #230033;
+  text-align: center;
+}
+#header {
+  color: #fff;
+  font-size: 12em;
+}
+#subheader {
+  background: #677267;
+  color: #fff;
+  font-size: 6em;
+  padding: 0.5em;
+}
+#graphic_placeholder {
+  background: white;
+  color: black;
+  padding: 2.5em;
+}
+#video {
+  padding: 2.5em;
+  color: #fff;
+  background: black;
+}
+#features {
+  background: white;
+  color: black;
+  display: block;
+}
+#secondpage {
+  background: #310047;
+}
+#secondpage #bubble_wrapper {
+  padding: 1em;
+}
+#secondpage p {
+  background: white;
+  color: black;
+  padding: 1em;
+  border-radius: 2.5em;
+  font-size: 3em;
+  margin: 1em 0 1em 0;
+}
+#thirdpage {
+  background: #3F005C;
+}
+#thirdpage header {
+  background: white;
+  color: black;
+  padding: 1em;
+  font-size: 3em;
+}
+#thirdpage .input_output {
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 3em;
+  margin: 1em;
+  padding: 1em;
+}
+
+#fourthpage {
+  background: #482857;
+  text-align: center;
+}
+#fourthpage header {
+  font-size: 6em;
+  background: #677267;
+  color: #fff;
+}
+#fourthpage #info_wrapper {
+  padding: 1em;
+  color: #FAF0FF;
+  font-size: 3em;
+}
+#fourthpage #contact_socialmedia svg {
+  fill: #FAF0FF;
+  margin: 2em;
+}
+#fourthpage #write_us {
+  font-size: 4em;
+  color: white;
+  padding: 1em;
+}
+
+#fourthpage form {
+  font-size: 3em;
+}
+#fourthpage form input {
+  font-size: 2em;
+  width: 90%;
+  text-align: center;
+  margin: 0.25em;
+  border-radius: 15em;
+}
+#fourthpage form textarea {
+  font-size: 2em;
+  border-radius: 2.5em;
+
+}
+#fourthpage form #send_button {
+  font-size: 2em;
+  background: #677267;
+  color: white;
+}
+
+footer {
+  color: #FAF0FF;
+  padding: 2.5em;
 }
