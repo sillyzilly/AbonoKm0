@@ -20,7 +20,7 @@ nav {
 }
 nav hr {
   width: 75%;
-  margin: 0.25em 12.5% 0.25em 12.5%;
+  margin: 0 12.5% 0 12.5%;
 }
 .nav_container {
   display: flex;
@@ -55,12 +55,12 @@ nav hr {
   /* margin: 0.5em; */
 }
 #socialmedia svg {
-  margin: 0 0.5em 0 0.5em;
+  /* margin: 0 0.5em 0 0.5em; */
 }
-div.page {
+/* div.page {
   min-height: calc(100vh - 2.5em);
   top: 2.5em;
-}
+} */
 #homepage {
   background: #230033;
   text-align: center;
