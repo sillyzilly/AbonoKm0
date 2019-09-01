@@ -4,8 +4,7 @@
   padding: 0;
 }
 html, body {
-  height: 100%;
-  overflow: hidden;
+  width: 100%;
 }
 nav {
   position: sticky;
