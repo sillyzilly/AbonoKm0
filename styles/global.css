@@ -122,7 +122,7 @@ form textarea {
 }
 
 div#action {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   background: #3A403A;
   padding: 1em;
