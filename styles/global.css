@@ -7,6 +7,16 @@ html, body {
   /* width: 100%; */
   /* overflow-x: hidden; */
 }
+.background_gray {
+  background: #677267;
+  color: white;
+  padding: 2em;
+}
+.background_purple {
+  background: #230033;
+  color: white;
+  padding: 2em;
+}
 nav {
   position: sticky;
   top: 0;
@@ -52,10 +62,10 @@ nav hr {
 #socialmedia {
   display: flex;
   fill: #A3A3A3;
-  /* margin: 0.5em; */
+  margin: 0.5em;
 }
 #socialmedia svg {
-  /* margin: 0 0.5em 0 0.5em; */
+  margin: 0 0.5em 0 0.5em;
 }
 /* div.page {
   min-height: calc(100vh - 2.5em);
@@ -67,23 +77,26 @@ nav hr {
 }
 #header {
   color: #fff;
-  font-size: 9em;
+  font-size: 8em;
 }
 #subheader {
   background: #677267;
   color: #fff;
-  font-size: 6em;
+  font-size: 4em;
   padding: 0.5em;
 }
 #graphic_placeholder {
   background: white;
   color: black;
   padding: 2.5em;
+  font-size: 2em;
 }
 #video {
-  padding: 2.5em;
+  padding: 5em;
   color: #fff;
   background: black;
+  font-size: 2em;
+
 }
 #features {
   background: white;
@@ -93,17 +106,6 @@ nav hr {
 #secondpage {
   background: #310047;
 }
-#secondpage #bubble_wrapper {
-  padding: 1em;
-}
-#secondpage p {
-  background: white;
-  color: black;
-  padding: 1em;
-  border-radius: 2.5em;
-  font-size: 3em;
-  margin: 1em 0 1em 0;
-}
 #thirdpage {
   background: #3F005C;
 }
@@ -112,6 +114,7 @@ nav hr {
   color: black;
   padding: 1em;
   font-size: 3em;
+  text-align: center;
 }
 #thirdpage .input_output {
   background: white;
