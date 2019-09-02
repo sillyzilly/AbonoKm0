@@ -27,48 +27,21 @@ nav {
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  /* colours */
-  background: #3A403A;
-  /* height: 2.5em; */
+  z-index: 10;
 }
-nav hr {
-  width: 75%;
-  margin: 0 12.5% 0 12.5%;
-}
-.nav_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-}
-#nav_contact_button {
-  background: #A3A3A3;
-  color: #000;
-  padding-left: 1em;
-  padding-right: 1em;
-  border-radius: 25px;
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3em;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  border-style: none;
-  margin: 0.25em;
-}
-
-#logo {
+#abonoKm0 {
   color: #fff;
-  font-size: 3em;
+  font-size: 9em;
+  background: #230033;
 }
 #socialmedia {
-  display: flex;
   fill: #A3A3A3;
-  margin: 0.5em;
+  padding: 2em;
+  background: #3A403A;
+
 }
 #socialmedia svg {
-  margin: 0 0.5em 0 0.5em;
+  margin: 0 1.5em 0 1.5em;
 }
 /* div.page {
   min-height: calc(100vh - 2.5em);
@@ -104,24 +77,30 @@ nav hr {
   color: black;
   display: block;
 }
-#fourthpage #info_wrapper {
+#info_wrapper {
+  background: #A3A3A3;
   padding: 1em;
-  color: black;
   font-size: 3em;
 }
-#fourthpage #contact_socialmedia svg {
+#contact_socialmedia {
+  background: #A3A3A3;
+  padding: 2em;
+
+}
+#contact_socialmedia svg {
   fill: black;
   margin: 2em;
 }
-#fourthpage #write_us {
+#write_us {
   font-size: 4em;
   padding: 1em;
+  color: black;
 }
-
-#fourthpage form {
+form {
   font-size: 3em;
+  padding: 1em 1em 2em 1em;
 }
-#fourthpage form input {
+form input {
   font-size: 1.5em;
   width: 100%;
   padding: 0.25em;
@@ -129,16 +108,37 @@ nav hr {
   color: black;
   margin-bottom: 0.25em;
 }
-#fourthpage form textarea {
+form textarea {
   font-size: 1.5em;
   border-radius: 0.5em;
   width: 100%;
 }
-#fourthpage form #send_button {
+#send_button {
+  margin-top: 0.5em;
   font-size: 1.5em;
   background: #A3A3A3;
   color: black;
-  padding: 0;
+  /* padding: 0; */
+}
+
+div#action {
+  background: #3A403A;
+  padding: 1em;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+button#mas_informacion {
+  background: #A3A3A3;
+  /* color: #fff; */
+  padding: 0.5em 4em 0.5em 4em;
+  border-radius: 25px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3em;
+  border-style: none;
+  margin: 0.25em;
 }
 
 footer {
