@@ -6,16 +6,19 @@
 html, body {
   /* width: 100%; */
   /* overflow-x: hidden; */
+  text-align: center;
 }
 .background_gray {
   background: #677267;
   color: white;
   padding: 2em;
+  font-size: 3em;
 }
 .background_purple {
   background: #230033;
   color: white;
   padding: 2em;
+  font-size: 3em;
 }
 nav {
   position: sticky;
@@ -73,7 +76,6 @@ nav hr {
 } */
 #homepage {
   background: #230033;
-  text-align: center;
 }
 #header {
   color: #fff;
@@ -91,11 +93,10 @@ nav hr {
   padding: 2.5em;
   font-size: 2em;
 }
+#compost_schlange {
+  width: 90%;
+}
 #video {
-  padding: 5em;
-  color: #fff;
-  background: black;
-  font-size: 2em;
 
 }
 #features {
@@ -103,49 +104,17 @@ nav hr {
   color: black;
   display: block;
 }
-#secondpage {
-  background: #310047;
-}
-#thirdpage {
-  background: #3F005C;
-}
-#thirdpage header {
-  background: white;
-  color: black;
-  padding: 1em;
-  font-size: 3em;
-  text-align: center;
-}
-#thirdpage .input_output {
-  background: white;
-  color: black;
-  text-align: center;
-  font-size: 3em;
-  margin: 1em;
-  padding: 1em;
-}
-
-#fourthpage {
-  background: #482857;
-  text-align: center;
-}
-#fourthpage header {
-  font-size: 6em;
-  background: #677267;
-  color: #fff;
-}
 #fourthpage #info_wrapper {
   padding: 1em;
-  color: #FAF0FF;
+  color: black;
   font-size: 3em;
 }
 #fourthpage #contact_socialmedia svg {
-  fill: #FAF0FF;
+  fill: black;
   margin: 2em;
 }
 #fourthpage #write_us {
   font-size: 4em;
-  color: white;
   padding: 1em;
 }
 
@@ -153,24 +122,27 @@ nav hr {
   font-size: 3em;
 }
 #fourthpage form input {
-  font-size: 2em;
-  width: 90%;
-  text-align: center;
-  margin: 0.25em;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 0.25em;
   border-radius: 15em;
+  color: black;
+  margin-bottom: 0.25em;
 }
 #fourthpage form textarea {
-  font-size: 2em;
-  border-radius: 2.5em;
-
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  width: 100%;
 }
 #fourthpage form #send_button {
-  font-size: 2em;
-  background: #677267;
-  color: white;
+  font-size: 1.5em;
+  background: #A3A3A3;
+  color: black;
+  padding: 0;
 }
 
 footer {
-  color: #FAF0FF;
+  background: #230033;
+  color: white;
   padding: 2.5em;
 }
