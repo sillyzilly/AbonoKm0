@@ -4,9 +4,9 @@
     padding: 0.25em;
   }
   #connectHort {
-    background: black;
-    font-size: 2em;
-    color: rgb(85, 144, 81);
+    background: rgb(159,	216,	158);
+    font-size: 1.5em;
+    /* color: rgb(85, 144, 81); */
     padding: 0.25em;
   }
   #connectHort_logo {
@@ -21,18 +21,22 @@
   #compost_schlange {
     width: 10em;
   }
-  #features img {
+  #organico {
     width: 15em;
+    margin-bottom: 1em;
+  }
+  #zero_waste {
+    width: 20em;
   }
   #cooperacion_title {
     font-size: 3em;
     padding: 1em;
   }
+  #urbonera {
+    width: 25em;
+  }
   #bcnsostenible {
     width: 15em;
-  }
-  #socialmedia {
-    margin-bottom: 0.5em;
   }
   button#mas_informacion {
     font-size: 1.5em;
@@ -42,8 +46,8 @@
     padding: 1em;
     background: #A3A3A3;
   }
-  #info_wrapper {
-    margin-bottom: 1em;
+  #write_us {
+    margin-top: 1em;
   }
   #write_us button {
     background: white;
