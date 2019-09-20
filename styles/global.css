@@ -4,10 +4,13 @@
   padding: 0;
 }
 html {
-  background: rgba(159, 205, 150);
+  background: #dfe9dd;
 }
 body {
-  max-width: 56em;
+  text-align: center;
+}
+main {
+  max-width: 60em;
   margin: 0 auto;
   background: white;
 }
@@ -17,99 +20,47 @@ body {
 .background_purple {
   background: #230033;
 }
+img.rounded {
+  border-radius: 25px;
+}
 nav {
   position: sticky;
   top: 0;
   z-index: 10;
 }
 #logo {
-  /* color:logo #fff; */
   background: #fff;
 }
-#socialmedia {
-  /* fill: #A3A3A3; */
-  /* padding: 2em; */
-  background: #fff;
-
+#compost_schlange {
+  border-radius: 25px;
+}
+#features img {
+  border-radius: 25px;
+}
+#urbonera {
+  border-radius: 15px;
 }
 #socialmedia svg {
-  /* margin: 0 1.5em 0 1.5em; */
+  width: 40px;
+  height: 40px;
+  fill: white;
+  margin: 0 1em 0 1em;
 }
-#graphic_placeholder {
-  background: white;
-  color: black;
-}
-/* #video {
-  max-width: 100%;
-} */
-#features {
-  background: white;
-  color: black;
-  display: block;
-}
-#info_wrapper {
-  /* background: #A3A3A3; */
-  /* padding: 1em; */
-  /* font-size: 3em; */
-}
-#contact_socialmedia {
-  /* background: #A3A3A3; */
-  /* padding: 1em; */
-}
-#contact_socialmedia svg {
-  fill: black;
-  /* margin: 2em; */
-}
-#write_us {
-  /* font-size: 4em; */
-  /* padding: 1em; */
-  color: black;
-}
-form {
-  /* font-size: 3em; */
-  /* padding: 1em 1em 2em 1em; */
-}
-form input {
-  /* font-size: 1em; */
-  width: 100%;
-  /* padding: 0.25em; */
-  border-radius: 15em;
-  color: black;
-  /* margin-bottom: 0.25em; */
-}
-form textarea {
-  /* font-size: 1.5em; */
-  border-radius: 0.5em;
-  width: 100%;
-}
-#send_button {
-  /* margin-top: 0.5em; */
-  /* font-size: 1em; */
-  background: #A3A3A3;
-  color: black;
-  /* padding: 0; */
-}
-
 footer {
   position: sticky;
   bottom: 0;
-  background: #fff;
+  background: #A3A3A3;
   padding: 1em;
   text-align: center;
   z-index: 9;
 }
 button#mas_informacion {
-  /* background: #A3A3A3; */
-  /* color: #fff; */
+  background: white;
   border-radius: 25px;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
   border-style: none;
-}
-
-footer {
-  background: #A3A3A3;
 }
 div.info {
   padding: 0.25em;
@@ -122,9 +73,7 @@ div.info {
   font-weight: normal;
   border-style: none;
 }
-
 #credits_rights {
   padding: 1em;
-  background: rgba(159, 205, 150);
-
+  background: white;
 }
