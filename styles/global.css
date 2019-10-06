@@ -21,7 +21,10 @@ a {
   text-decoration: none;
 }
 .background_gray {
-  background: #A3A3A3;
+  background: rgb(230, 230, 230);
+}
+.background_ciclo {
+  background: rgb(254,	244,	228);
 }
 .background_purple {
   background: #230033;
@@ -37,6 +40,11 @@ nav {
 #logo {
   background: #fff;
 }
+div.page {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+}
 #connectHort {
   /* background: rgb(159,	216,	158); */
   font-size: 1.5em;
@@ -46,9 +54,6 @@ nav {
   border-radius: 25px;
 }
 #compost_schlange {
-  border-radius: 25px;
-}
-#features img {
   border-radius: 25px;
 }
 #urbonera {
