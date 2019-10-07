@@ -9,6 +9,9 @@
     justify-content: space-around;
     margin-bottom: 5em;
   }
+  img#ciclo {
+    height: 21em;
+  }
   #connectHort {
     font-size: 1.5em;
     padding: 0.25em;
@@ -42,7 +45,7 @@
   #bcnsostenible {
     height: 15em  ;
   }
-  #bcnactiva {
+  img#bcnactiva {
     height: 10em;
   }
   button#mas_informacion {
