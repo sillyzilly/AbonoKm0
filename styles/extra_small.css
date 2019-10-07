@@ -45,6 +45,9 @@
   #bcnsostenible {
     width: 10em;
   }
+  #bcnactiva img {
+    height: 4em;
+  }
   button#mas_informacion {
     font-size: 1.5em;
     padding: 0.15em 1.5em 0.15em 1.5em;
