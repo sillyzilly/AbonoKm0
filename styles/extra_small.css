@@ -12,6 +12,9 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  #ciclo img {
+    height: 4em;
+  }
   #subheader {
     font-size: 2em;
     padding: 0.25em;
