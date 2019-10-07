@@ -76,6 +76,9 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  img#ciclo {
+    height: 9em;
+  }
   #subheader {
     font-size: 2em;
     padding: 0.25em;
@@ -105,6 +108,9 @@
   }
   #bcnsostenible {
     width: 10em;
+  }
+  img#bcnactiva {
+    height: 9em;
   }
   button#mas_informacion {
     font-size: 1.5em;
