@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: space-around;
   }
-  #ciclo img {
+  img#ciclo {
     height: 9em;
   }
   #subheader {
@@ -45,7 +45,7 @@
   #bcnsostenible {
     width: 10em;
   }
-  #bcnactiva img {
+  img#bcnactiva {
     height: 9em;
   }
   button#mas_informacion {
