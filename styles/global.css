@@ -21,6 +21,9 @@ main {
 a {
   text-decoration: none;
 }
+li {
+  list-style-type: none;
+}
 .background_gray {
   background: rgb(230, 230, 230);
 }
@@ -31,7 +34,7 @@ a {
   background: #230033;
 }
 img.rounded {
-  border-radius: 15em;
+  border-radius: 15px;
 }
 nav {
   position: sticky;
@@ -56,6 +59,11 @@ div.page {
 }
 #compost_schlange {
   border-radius: 25px;
+}
+#features_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #urbonera {
   border-radius: 15px;
