@@ -5,7 +5,8 @@
 }
 html {
   /* background: #dfe9dd; */
-  background: #e8eaed;
+  /* background: #e8eaed; */
+  background: rgb(243	248	247);
 }
 body {
   text-align: center;
@@ -16,7 +17,7 @@ body {
 main {
   max-width: 60em;
   margin: 0 auto;
-  background: white;
+  /* background: white; */
 }
 a {
   text-decoration: none;
@@ -42,7 +43,7 @@ nav {
   z-index: 10;
 }
 #logo {
-  background: #fff;
+  background: rgb(243	248	247);
 }
 div.page {
   /* display: flex; */
