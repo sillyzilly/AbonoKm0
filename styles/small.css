@@ -115,6 +115,7 @@
     height: 9em;
   }
   .headline {
+    margin: 0 5em 0 5em;
     font-size: 1.6em;
   }
   .headline p {
