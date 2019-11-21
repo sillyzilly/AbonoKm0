@@ -4,7 +4,7 @@
     font-size: 1.5em;
   }
   #logo a {
-    font-size: 4em;
+    font-size: 3.8em;
   }
   #urbonera {
     width: 15em;
@@ -46,10 +46,10 @@
     height: 10em;
   }
   #lacticos {
-    height: 19em;
+    height: 16em;
   }
   #carnes {
-    height: 13em;
+    height: 12em;
   }
   #huesos {
     height: 12em;
@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 361px) and (max-width: 600px) {
   #logo a {
-    font-size: 4.4em;
+    font-size: 3.9em;
   }
   .page {
     min-height: calc(100vh - 4.75em);

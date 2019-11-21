@@ -118,9 +118,12 @@
       <div id="mapid"></div>
 
       <script type="text/javascript">
-        markersLatLng = [
+        const markersLatLng = [
           [41.393971, 2.197418]
         ];
+        const popup = L.popup(); // Create a popup instance
+        // NB: The popup should be created outside the for loop, we only need 1 popup
+
         document.addEventListener("DOMContentLoaded", function() {
           // The DOMContentLoaded event fires when the page is ready.
           var map = createMap('mapid', 41.3851, 2.1734, 12);
@@ -128,6 +131,16 @@
           // lattitude, longitude and zoom
           markersLatLng.forEach(function(latLng) {
             addMarker(map, latLng);
+          });
+
+          map.on('click', function(e) {
+            // When the map is clicked, this function is executed
+            // The parameter 'e' gives us informations about the click
+            popup.setLatLng(e.latlng)
+              .setContent("What's here: " + e.latlng.toString())
+              .openOn(map);
+            // We set the popup's position to where the user clicked
+            // Then set its content and open it on our map
           });
         });
 
