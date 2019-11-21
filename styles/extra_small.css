@@ -3,8 +3,8 @@
   h1 {
     font-size: 1.5em;
   }
-  #logo img {
-    height: 4em;
+  #logo a {
+    font-size: 4em;
   }
   #urbonera {
     width: 15em;
@@ -84,8 +84,8 @@
 }
 
 @media screen and (min-width: 361px) and (max-width: 600px) {
-  #logo img {
-    height: 4.75em;
+  #logo a {
+    font-size: 4.4em;
   }
   .page {
     min-height: calc(100vh - 4.75em);
