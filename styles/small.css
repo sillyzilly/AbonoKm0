@@ -121,6 +121,9 @@
   .headline p {
     /* padding: 0.5em; */
   }
+  figure {
+    padding: 2em;
+  }
   #cooperacion_title {
     font-size: 3em;
     padding-top: 1em;
