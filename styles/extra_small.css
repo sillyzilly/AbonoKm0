@@ -13,8 +13,8 @@
     min-height: calc(100vh - 4em);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 1em 0 1em 0;
+    justify-content: space-evenly;
+    /* padding: 1em 0 1em 0; */
   }
   img#ciclo {
     height: 19em;
@@ -28,7 +28,6 @@
   }
   .headline {
     font-size: 2em;
-    padding: 0.5em;
   }
   #compost_schlange {
     height: 11em;
@@ -91,8 +90,8 @@
     min-height: calc(100vh - 4.75em);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 1em 0 1em 0;
+    justify-content: space-evenly;
+    /* padding: 1em 0 1em 0; */
   }
   img#ciclo {
     height: 21em;
@@ -106,7 +105,6 @@
   }
   .headline {
     font-size: 2em;
-    padding: 0.5em;
   }
   #compost_schlange {
     height: 13em;
@@ -118,7 +116,7 @@
     width: 15em;
   }
   #restos_organicos {
-    height: 11em;
+    height: 10em;
   }
   #paper {
     height: 10em;
