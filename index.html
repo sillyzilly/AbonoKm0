@@ -32,9 +32,9 @@
         <p> Transformando tus restos orgánicos en fertilizante. </p>
       </div>
 
-      <figure>
+      <div>
         <img id='compost_schlange' src="resources/graphics/compostSchlange.jpg" alt="compost compostaje vermicompostaje lombriz roja californiana">
-      </figure>
+      </div>
 
       <div class='headline'>
         <p style="text-align: left"> Lo que es de la tierra...</p>
@@ -126,6 +126,7 @@
 
         document.addEventListener("DOMContentLoaded", function() {
           // The DOMContentLoaded event fires when the page is ready.
+          var markerInfos = document.getElementById("markerInfos");
           var map = createMap('mapid', 41.3851, 2.1734, 12);
           // map is the id of our div element and the other options are
           // lattitude, longitude and zoom
