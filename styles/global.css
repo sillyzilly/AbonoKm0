@@ -4,14 +4,14 @@
   padding: 0;
 }
 html {
-  /* background: rgb(245, 249, 247); */
+  background: rgba(194, 194, 194, 1);
 }
 body {
   text-align: center;
   font-family: helvetica;
   font-style: normal;
   font-weight: normal;
-  background: white;
+  background: rgba(194, 194, 194, 1);
 }
 main {
   max-width: 60em;
@@ -28,19 +28,13 @@ li {
 .background_gray {
   background: rgb(245, 249, 247);
 }
-.background_ciclo {
-  background: rgb(254,	244,	228);
-}
-.background_purple {
-  background: #230033;
-}
 .background_white {
   background: white;
 }
-.abono_green {
+.color_abono_green {
   color: rgb(66, 149, 75);
 }
-.abono_blue {
+.color_abono_blue {
   color: rgb(86, 149, 220);
 }
 .border_green {
@@ -58,8 +52,14 @@ li {
 .container {
   margin: 2em 0 2em 0;
 }
-img.rounded {
+.border_partners {
+  border-style: solid;
+  border-color: rgba(194, 194, 194, 1);
+  border-width: medium;
   border-radius: 15px;
+  /*  */
+  background: white;
+  padding: 0.5em;
 }
 nav {
   position: sticky;
@@ -67,15 +67,30 @@ nav {
   z-index: 10;
 }
 #logo {
-  background: rgb(243	248	247);
+  background: rgb(245, 249, 247);
 }
-div.page {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
+#logo a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-size: 5em;
+}
+@media screen and (max-width: 360px) {
+  #logo a {
+    font-size: 3.8em;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 600px) {
+  #logo a {
+    font-size: 3.9em;
+  }
+}
+#slogan {
+  display: flex;
+  justify-content: space-between;
 }
 #connectHort {
-  /* background: rgb(159,	216,	158); */
   font-size: 1.5em;
   padding: 0.25em;
 }
@@ -89,17 +104,13 @@ figcaption {
 }
 #connectHort_logo {
   border-radius: 25px;
+
 }
 #compost_schlange {
   border-radius: 25px;
 }
 #mapid {
   height: 30em;
-}
-#features_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 #urbonera {
   border-radius: 15px;
@@ -112,14 +123,15 @@ figcaption {
 #socialmedia svg {
   width: 50px;
   height: 50px;
-  fill: black;
   margin: 0 1em 0 1em;
 }
 #socialmedia svg:hover {
-  fill: #3b5998;
+  fill: red;
+}
+svg#facebook {
+  fill: #3b5998; /* facebook blue */
 }
 footer {
-  /* background: #A3A3A3; */
   padding: 1em;
   text-align: center;
   z-index: 9;
@@ -149,5 +161,4 @@ div.info {
 }
 #credits_rights {
   padding: 1em;
-  /* background: #dfe9dd; */
 }

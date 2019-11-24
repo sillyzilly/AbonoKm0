@@ -1,7 +1,4 @@
 @media screen and (min-width: 601px) and (max-width: 56em) {
-  #logo a {
-    font-size: 5em;
-  }
   div.page {
     min-height: calc(100vh - 6em);
     display: flex;
@@ -72,9 +69,6 @@
   h1 {
     font-size: 2.75em;
   }
-  #logo a {
-    font-size: 5em;
-  }
   div.page {
     min-height: calc(100vh - 6em);
     display: flex;
@@ -103,16 +97,23 @@
     justify-content: space-evenly;
     align-items: center;
   }
+  /* images */
   #ciclo {
     height: 35em;
     border-radius: 5em;
   }
+  #restos_organicos {
+    height: 12em;
+  }
+  #paper {
+    height: 15em;
+  }
+  #lacticos, #carnes, #huesos {
+    height: 13em;
+  }
   #connectHort {
     font-size: 1.5em;
     padding: 0.25em;
-  }
-  #connectHort_logo {
-    height: 9em;
   }
   .headline {
     /* margin: 0 6em 0 6em; */
@@ -129,13 +130,16 @@
     padding-top: 1em;
   }
   #urbonera {
-    width: 25em;
+    height: 7em;
   }
   #bcnsostenible {
-    height: 15em  ;
+    height: 11em;
+  }
+  #connectHort_logo {
+    height: 6em;
   }
   #bcnactiva {
-    height: 10em;
+    height: 8em;
   }
   button#mas_informacion {
     font-size: 1.5em;
