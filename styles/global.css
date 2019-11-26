@@ -19,6 +19,9 @@ a {
 li {
   list-style-type: none;
 }
+.color_white {
+  color: white;
+}
 .background_gray {
   background: rgb(245, 249, 247);
 }
@@ -55,6 +58,9 @@ li {
 }
 .block_padding {
   padding: 2em;
+}
+.rounded_corners {
+  border-radius: 15px;
 }
 .full_height {
 
@@ -130,7 +136,7 @@ figcaption {
   border-radius: 25px;
 }
 #mapid {
-  height: 30em;
+  height: 50em;
 }
 #urbonera {
   border-radius: 15px;
@@ -162,28 +168,23 @@ footer {
   text-align: center;
   z-index: 9;
 }
-button#mas_informacion {
-  background: white;
+button {
   border-radius: 25px;
   font-family: Roboto Slab;
   font-style: normal;
   font-weight: normal;
   border-style: none;
+  background: rgb(66, 149, 75);
+}
+button:hover {
+  background: rgb(86, 149, 220);
+}
+button a {
+  font-size: 1em;
+  color: white;
 }
 div.info {
   padding: 0.25em;
-}
-#write_us button {
-  background: rgb(66, 149, 75);
-  border-radius: 25px;
-  border-style: none;
-}
-#write_us button:hover {
-  background: rgb(86, 149, 220);
-}
-#write_us a {
-  color: white;
-  font-size: 1em;
 }
 #credits_rights {
   padding: 1em;
