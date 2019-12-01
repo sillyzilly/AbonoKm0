@@ -1,154 +1,193 @@
 /* extra extra small */
-@media screen and (max-width: 360px) {
-  h1 {
-    font-size: 1.5em;
+@media screen and (max-width: 320px) {
+  /* layout */
+  .full_height {
+    min-height: calc(100vh - 4.4em);
   }
-  #urbonera {
-    width: 15em;
-  }
-  .page {
-    min-height: calc(100vh - 4em);
+  div.display_flex_evenly {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* padding: 1em 0 1em 0; */
   }
-  img#ciclo {
-    height: 19em;
+  div.display_flex_around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  #subheader {
-    font-size: 2em;
-    padding: 0.25em;
+  .block_padding {
+    padding: 2em 1em 2em 1em;
   }
-  #connectHort_logo {
-    height: 8em;
+  /* styling */
+  .text_padding {
+    padding: 2em 0.5em 2em 0.5em;
   }
-  .headline {
-    font-size: 2em;
+  .margin {
+    margin: 2em 0 2em 0;
   }
-  #compost_schlange {
-    height: 11em;
-  }
-  #organico {
-    width: 10em;
-  }
-  #zero_waste {
-    width: 15em;
-  }
-  #restos_organicos {
-    height: 11em;
-  }
-  #paper {
-    height: 10em;
-  }
-  #lacticos {
-    height: 16em;
-  }
-  #carnes {
-    height: 12em;
-  }
-  #huesos {
-    height: 12em;
-  }
-  #cooperacion_title {
-    font-size: 2em;
-    padding: 0.5em;
-  }
-  #urbonera {
-    width: 20em;
-  }
-  #bcnsostenible {
-    width: 10em;
-  }
-  img#bcnactiva {
-    height: 9em;
-  }
-  button#mas_informacion {
-    font-size: 1.5em;
-    padding: 0.15em 1.5em 0.15em 1.5em;
-  }
-  #contact_section {
+  /* elements */
+  figure {
     padding: 1em;
   }
-  #write_us {
-    margin-top: 1em;
-  }
-  #write_us button {
+  button {
     font-size: 1.5em;
     padding: 0.15em 1.5em 0.15em 1.5em;
+  }
+  /* images */
+  #compost_schlange {
+    height: 12em;
+  }
+  #ciclo {
+    height: 18em;
+  }
+  #restos_organicos {
+    height: 5em;
+  }
+  #paper {
+    height: 5em;
+  }
+  #lacticos, #carnes, #huesos {
+    height: 5em;
+  }
+  #urbonera {
+    height: 5em;
+  }
+  #connectHort_logo {
+    height: 5em;
+  }
+  #bcnsostenible {
+    height: 10em;
+  }
+  #bcnactiva {
+    height: 5.5em;
   }
 }
-
-@media screen and (min-width: 361px) and (max-width: 600px) {
-  .page {
-    min-height: calc(100vh - 4.75em);
+/* extra small */
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  /* layout */
+  .full_height {
+    min-height: calc(100vh - 4.4em);
+  }
+  div.display_flex_evenly {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* padding: 1em 0 1em 0; */
   }
-  img#ciclo {
-    height: 21em;
+  div.display_flex_around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  #subheader {
-    font-size: 2em;
-    padding: 0.25em;
+  .block_padding {
+    padding: 2em 1em 2em 1em;
   }
-  #connectHort_logo {
-    height: 8em;
+  /* styling */
+  .text_padding {
+    padding: 2em 0.5em 2em 0.5em;
   }
-  .headline {
-    font-size: 2em;
+  .margin {
+    margin: 2em 0 2em 0;
   }
-  #compost_schlange {
-    height: 13em;
-  }
-  #organico {
-    width: 10em;
-  }
-  #zero_waste {
-    width: 15em;
-  }
-  #restos_organicos {
-    height: 10em;
-  }
-  #paper {
-    height: 10em;
-  }
-  #lacticos {
-    height: 19em;
-  }
-  #carnes {
-    height: 13em;
-  }
-  #huesos {
-    height: 12em;
-  }
-  #cooperacion_title {
-    font-size: 2em;
-    padding-bottom: 1em;
-  }
-  #urbonera {
-    width: 20em;
-  }
-  #bcnsostenible {
-    width: 10em;
-  }
-  img#bcnactiva {
-    height: 9em;
-  }
-  button#mas_informacion {
-    font-size: 1.5em;
-    padding: 0.15em 1.5em 0.15em 1.5em;
-  }
-  #contact_section {
+  /* elements */
+  figure {
     padding: 1em;
   }
-  #write_us {
-    margin-top: 1em;
-  }
-  #write_us button {
+  button {
     font-size: 1.5em;
     padding: 0.15em 1.5em 0.15em 1.5em;
+  }
+  /* images */
+  #compost_schlange {
+    height: 12em;
+  }
+  #ciclo {
+    height: 18em;
+  }
+  #restos_organicos {
+    height: 5em;
+  }
+  #paper {
+    height: 5em;
+  }
+  #lacticos, #carnes, #huesos {
+    height: 5em;
+  }
+  #urbonera {
+    height: 5em;
+  }
+  #connectHort_logo {
+    height: 5em;
+  }
+  #bcnsostenible {
+    height: 10em;
+  }
+  #bcnactiva {
+    height: 5.5em;
+  }
+}
+/* small */
+@media screen and (min-width: 361px) and (max-width: 600px) {
+  /* layout */
+  .full_height {
+    min-height: calc(100vh - 4.4em);
+  }
+  div.display_flex_evenly {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  div.display_flex_around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .block_padding {
+    padding: 2em 1em 2em 1em;
+  }
+  /* styling */
+  .text_padding {
+    padding: 2em 2em 2em 2em;
+  }
+  .margin {
+    margin: 2em 0 2em 0;
+  }
+  .max_width {
+    max-width: 20em;
+    margin: 0 auto;
+  }
+  /* elements */
+  figure {
+    padding: 1em;
+  }
+  button {
+    font-size: 1.5em;
+    padding: 0.15em 1.5em 0.15em 1.5em;
+  }
+  /* images */
+  #compost_schlange {
+    height: 12em;
+  }
+  #ciclo {
+    height: 18em;
+  }
+  #restos_organicos {
+    height: 5em;
+  }
+  #paper {
+    height: 5em;
+  }
+  #lacticos, #carnes, #huesos {
+    height: 5em;
+  }
+  #urbonera {
+    height: 5em;
+  }
+  #connectHort_logo {
+    height: 5em;
+  }
+  #bcnsostenible {
+    height: 10em;
+  }
+  #bcnactiva {
+    height: 5.5em;
   }
 }
