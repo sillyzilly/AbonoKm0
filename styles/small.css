@@ -1,66 +1,72 @@
 @media screen and (min-width: 601px) and (max-width: 56em) {
-  div.page {
-    min-height: calc(100vh - 6em);
+  /* layout */
+  .full_height {
+    min-height: calc(100vh - 4.4em);
+  }
+  div.display_flex_evenly {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-bottom: 5em;
+    justify-content: space-evenly;
   }
-  img#ciclo {
-    height: 21em;
+  div.display_flex_around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
-  #connectHort {
+  .display_flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .block_padding {
+    padding: 2em 1em 2em 1em;
+  }
+  /* styling */
+  .text_padding {
+    padding: 2em 5em 2em 5em;
+  }
+  .margin {
+    margin: 2em 0 2em 0;
+  }
+  .max_width {
+    max-width: 20em;
+    margin: 0.5em auto;
+  }
+  /* elements */
+  figure {
+    padding: 2em;
+  }
+  button {
     font-size: 1.5em;
-    padding: 0.25em;
+    padding: 0.15em 1.5em 0.15em 1.5em;
   }
-  #connectHort_logo {
-    height: 9em;
-  }
-  .headline {
-    font-size: 2.75em;
-  }
-  .headline p {
-    /* padding: 0.5em; */
-  }
+  /* images */
   #compost_schlange {
-    width: 30em;
-  }
-  #organico {
-    width: 15em;
-    margin-bottom: 1em;
-  }
-  #zero_waste {
-    width: 20em;
-  }
-  #paper {
     height: 20em;
   }
-  #cooperacion_title {
-    font-size: 3em;
-    padding: 1em;
+  #ciclo {
+    height: 30em;
+  }
+  #restos_organicos {
+    height: 5em;
+  }
+  #paper {
+    height: 5em;
+  }
+  #lacticos, #carnes, #huesos {
+    height: 5em;
   }
   #urbonera {
-    width: 25em;
+    height: 5em;
+  }
+  #connectHort_logo {
+    height: 5em;
   }
   #bcnsostenible {
-    height: 15em  ;
-  }
-  img#bcnactiva {
     height: 10em;
   }
-  button#mas_informacion {
-    font-size: 1.5em;
-    padding: 0.15em 1.5em 0.15em 1.5em;
-  }
-  #contact_section {
-    padding: 1em;
-  }
-  #write_us {
-    margin-top: 1em;
-  }
-  #write_us button {
-    font-size: 1.5em;
-    padding: 0.15em 1.5em 0.15em 1.5em;
+  #bcnactiva {
+    height: 5.5em;
   }
 }
 
@@ -69,13 +75,29 @@
   h1 {
     font-size: 2.75em;
   }
-  div.page {
-    min-height: calc(100vh - 6em);
+  div.full_height {
+    min-height: calc(100vh - 5.75em);
+    /* padding: 1em; */
+  }
+  div.display_flex_evenly {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 1em;
   }
+  div.display_flex_around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .display_flex_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .text_padding {
+    padding: 2em 5em 2em 5em;
+  }
+  /* images */
   #compost_schlange {
     height: 24em;
   }
@@ -103,13 +125,13 @@
     border-radius: 5em;
   }
   #restos_organicos {
-    height: 12em;
+    height: 10em;
   }
   #paper {
-    height: 15em;
+    height: 13em;
   }
   #lacticos, #carnes, #huesos {
-    height: 13em;
+    height: 10em;
   }
   #connectHort {
     font-size: 1.5em;
@@ -124,6 +146,9 @@
   }
   figure {
     padding: 2em;
+  }
+  #mapid {
+    margin: 5em;
   }
   #cooperacion_title {
     font-size: 3em;
@@ -141,18 +166,14 @@
   #bcnactiva {
     height: 8em;
   }
-  button#mas_informacion {
+  button {
     font-size: 1.5em;
-    padding: 0.15em 1.5em 0.15em 1.5em;
+    padding: 0.15em 5em 0.15em 5em;
   }
   #contact_section {
     padding: 1em;
   }
   #write_us {
     margin-top: 1em;
-  }
-  #write_us button {
-    font-size: 1.5em;
-    padding: 0.15em 1.5em 0.15em 1.5em;
   }
 }

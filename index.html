@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <main>
+  <main class="background_gray">
     <nav>
       <div id='logo'>
         <a href="https://www.instagram.com/abonokm0/" target="_blank">
@@ -29,81 +29,94 @@
       </div>
     </nav>
 
-    <div class="page">
-      <div class="headline">
-        <p> Transformando tus restos orgánicos en fertilizante a través del vermicompostaje. </p>
+    <div class="full_height display_flex_evenly">
+      <div class="headline background_white rounded_corners">
+        <div class="text_padding">
+          <p> Transformando restos orgánicos en fertilizante a través del vermicompostaje. </p>
+          <br />
+          <div class='' id="slogan">
+            <span> "Lo que es de la tierra...</span>
+            <span> que vuelva a ella."</span>
+          </div>
+        </div>
       </div>
 
       <div>
         <img id='compost_schlange' src="resources/graphics/compostSchlange.jpg" alt="compost compostaje vermicompostaje lombriz roja californiana">
       </div>
 
-      <div class='headline' id="slogan">
-        <span> Lo que es de la tierra...</span>
-        <span> que vuelva a ella.</span>
-      </div>
+      <!-- <div class='headline background_white block_padding rounded_corners' id="slogan">
+      <span> Lo que es de la tierra...</span>
+      <span> que vuelva a ella.</span>
+    </div> -->
     </div>
 
-    <hr>
+    <div class="full_height display_flex_around background_white" class="full_height">
+      <div id='economia_circular_title' class="headline">
+        Economía circular a tu alcance.
+      </div>
 
-    <div class="page">
       <figure>
-        <figcaption class="headline">
-          Economía circular a tu alcance.
-        </figcaption>
-        <img id='ciclo' src="resources/graphics/ciclo.jpg" alt="">
+        <img id='ciclo' class="rounded_corners" src="resources/graphics/ciclo.jpg" alt="">
       </figure>
+
+      <div class="block_padding"> </div>
+
     </div>
 
-    <hr>
+    <div>
+      <div id="economia_circular_blue_block" class="background_abono_blue headline">
+        Participa y traenos tus residuos!
+        <br /> <br />
+        Saremos muy contentos de recibirlos :)
+      </div>
 
-    <div class="page">
-      <span class="headline">
-        ¿Que SI recibimos?
-      </span class="headline">
+      <div class="display_flex_around">
+        <span class="background_white headline block_padding">
+          ¿Que SI recibimos?
+        </span class="headline">
 
-      <div class="partners">
-        <figure class="background_white border_green">
-          <img id='restos_organicos' src="resources/graphics/residuos.jpg" alt="restos organicos.">
+        <div class="display_flex_row block_padding">
+          <figure class="background_white border_green max_width">
+            <img id='restos_organicos' src="resources/graphics/residuos.jpg" alt="restos organicos.">
 
-          <figcaption>
-            <ul>
-              <li> Restos orgánicos de la cocina: </li>
-              <li> restos de frutas y verduras y cáscaras de huevo</li>
-              <li> Infusiones: borra de café, té y sus saquitos. </li>
-            </ul>
-          </figcaption>
-        </figure>
+            <figcaption>
+              <ul>
+                <li> Restos orgánicos de la cocina: </li>
+                <li> restos de frutas y verduras y cáscaras de huevo</li>
+                <li> Infusiones: borra de café, té y sus saquitos. </li>
+              </ul>
+            </figcaption>
+          </figure>
 
-        <figure class="background_white border_green">
-          <img id='paper' src="resources/graphics/paper.png" alt="">
+          <figure class="background_white border_green max_width">
+            <img id='paper' src="resources/graphics/paper.png" alt="">
 
-          <figcaption> Cartones y papeles </figcaption>
-        </figure>
+            <figcaption> Cartones y papeles </figcaption>
+          </figure>
+        </div>
       </div>
     </div>
 
-    <hr>
-
-    <div class="page">
-      <span class="headline">
+    <div class="display_flex_around">
+      <span class="background_white headline block_padding">
         ¿que NO recibimos?
       </span class="headline">
 
-      <div class="partners">
-        <figure class="background_white border_red">
+      <div class="display_flex_row block_padding">
+        <figure class="background_white border_red max_width">
           <img id='lacticos' src="resources/graphics/lacticos.jpg" alt="">
 
           <figcaption> Productos lácteos: leche, quesos y yogur </figcaption>
         </figure>
 
-        <figure class="background_white border_red">
+        <figure class="background_white border_red max_width">
           <img id='carnes' src="resources/graphics/carne.jpg" alt="">
 
           <figcaption> Productos cárnicos </figcaption>
         </figure>
 
-        <figure class="background_white border_red">
+        <figure class="background_white border_red max_width">
           <img id='huesos' src="resources/graphics/huesos.jpg" alt="">
 
           <figcaption> Huesos </figcaption>
@@ -111,13 +124,10 @@
       </div>
     </div>
 
-    <hr>
+    <div class="display_flex_evenly color_white">
+      <span class="headline background_abono_green block_padding"> Encuentra tu sitio más cercano </span>
 
-    <div class="container">
-      <span class="headline"> Encuentra tu sitio más cercano </span>
-      <br><br>
-
-      <div id="mapid"></div>
+      <div id="mapid" class="rounded_corners"></div>
 
       <script type="text/javascript">
         const markersLatLng = [
@@ -177,7 +187,7 @@
       </script>
     </div>
 
-      <!-- <div id='video'>
+    <!-- <div id='video'>
   <video controls width="600">
     <source src="resources/video.mp4" type="video/mp4">
     <p>Your browser doesn't support HTML5 video. Here is
@@ -185,107 +195,103 @@
   </video>
 </div> -->
 
-      <hr>
-
-      <div id="cooperacion" class="container">
-        <div class="headline">
-          En cooperación con
-        </div>
-        <br><br>
-
-        <div class="partners">
-          <div>
-            <div>
-              <a href="https://urbonera.com/espana/" target="_blank">
-                <img id="urbonera" src="resources/logos/urbonera.jpg" alt="urbonera la abonera urbana logo">
-              </a>
-            </div>
-
-            <div id="connectHort">
-              <div>
-                <a href="https://www.instagram.com/connecthort/" target="_blank">
-                  <img id="connectHort_logo" class="border_partners" src="resources/logos/connectHort.jpg" alt="ConnectHort logo">
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <a href="http://www.bcnsostenible.cat/es/web/punt/urbonera-la-abonera-urbana" target="_blank">
-                <img id="bcnsostenible" class="border_partners" src="resources/logos/bcnsostenible.jpg" alt="barcelona mas sostenible logo">
-              </a>
-            </div>
-
-            <div class="">
-              <a href="#">
-                <img id='bcnactiva' class="border_partners" src="resources/logos/barcelonaActiva.png" alt="">
-              </a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr>
-
-      <footer>
-        <div class="headline">
-          Seguinos en
-        </div>
-        <br />
-
-        <div id='socialmedia'>
-          <a href="https://www.facebook.com/Abonokm0/" target="_blank">
-            <svg id='facebook' xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
-              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z" />
-            </svg>
-          </a>
-
-          <a href="https://www.instagram.com/abonokm0/" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 24 24">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-            </svg>
-          </a>
-
-          <a href="https://www.youtube.com/channel/UCbTkuRcbp7ltaiXee_DY3wA" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
-              <path d="M9.279 13.52h-.939v5.027h-.908v-5.027h-.94v-.854h2.788v.854zm5.395 1.721v2.406c0 .537-.2.954-.736.954-.296 0-.541-.108-.767-.388v.333h-.813v-5.88h.813v1.893c.183-.222.429-.405.718-.405.59 0 .785.499.785 1.087zm-.83.049c0-.146-.027-.257-.086-.333-.098-.129-.279-.143-.42-.071l-.167.132v2.703l.19.153c.132.066.324.071.413-.045.046-.061.069-.161.069-.299v-2.24zm-2.347-5.859c.229 0 .354-.183.354-.431v-2.119c0-.255-.111-.434-.371-.434-.237 0-.353.185-.353.434v2.119c.001.24.137.431.37.431zm-.733 8.07c-.099.123-.317.325-.475.325-.172 0-.215-.118-.215-.292v-3.325h-.805v3.626c0 .88.597.885 1.031.636.16-.092.315-.227.464-.403v.479h.807v-4.338h-.807v3.292zm13.236-12.501v14c0 2.761-2.238 5-5 5h-14c-2.761 0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239 5 5zm-10.566 4.427c0 .45.137.813.592.813.256 0 .611-.133.979-.569v.503h.847v-4.554h-.847v3.457c-.104.129-.333.341-.498.341-.182 0-.226-.124-.226-.307v-3.491h-.847v3.807zm-3.177-2.621v2.233c0 .803.419 1.22 1.24 1.22.682 0 1.218-.456 1.218-1.22v-2.233c0-.713-.531-1.224-1.218-1.224-.745 0-1.24.493-1.24 1.224zm-3.155-2.806l1.135 3.67v2.504h.953v-2.504l1.11-3.67h-.969l-.611 2.468-.658-2.468h-.96zm11.564 11.667c-.014-2.978-.232-4.116-2.111-4.245-1.734-.118-7.377-.118-9.109 0-1.876.128-2.098 1.262-2.111 4.245.014 2.978.233 4.117 2.111 4.245 1.732.118 7.375.118 9.109 0 1.877-.129 2.097-1.262 2.111-4.245zm-1.011-.292v1.104h-1.542v.818c0 .325.027.607.352.607.34 0 .36-.229.36-.607v-.301h.83v.326c0 .836-.358 1.342-1.208 1.342-.771 0-1.164-.561-1.164-1.342v-1.947c0-.753.497-1.275 1.225-1.275.773-.001 1.147.491 1.147 1.275zm-.83-.008c0-.293-.062-.508-.353-.508-.299 0-.359.21-.359.508v.439h.712v-.439z" />
-            </svg>
-          </a>
-        </div>
-
-        <br/>
-
-        <button>
-          Contáctanos.
-        </button>
-      </footer>
-
-      <hr>
-
-      <div id='contact_section'>
-        <div class="headline">
+    <div id='contact_section' class="background_white">
+      <div class="background_white block_padding">
+        <h2>
           Sobre el proyecto
-        </div>
+        </h2>
         <br />
+        <h3> Qué y Porqué? </h3>
+        <br />
+        <p class="text_justify text_padding">
+          AbonoKm0 es un servicio de gestión integral descentralizada de la fracción orgánica en puntos estratégicos de la ciudad para la recepción y tratamiento in situ (montaje, puesta en marcha, capacitación y seguimiento) mediado a través del
+          empoderamiento ciudadano, premiando el compromiso mediante la contra entrega de un producto de valor fruto de este proceso.
+        </p>
+      </div>
 
-        <div id='write_us'>
-          <button>
-            <a href="mailto:info@urbonera.com"> LEER MAS
+      <div id='write_us' class="block_padding">
+        <button>
+          <a href=""> LEER MAS
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <footer class="background_gray">
+      <h3 class="block_padding">
+        Seguinos en
+      </h3>
+
+      <div id='socialmedia'>
+        <a href="https://www.facebook.com/Abonokm0/" target="_blank">
+          <svg id='facebook' xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z" />
+          </svg>
+        </a>
+
+        <a href="https://www.instagram.com/abonokm0/" target="_blank">
+          <svg id='instagram' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 24 24">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCbTkuRcbp7ltaiXee_DY3wA" target="_blank">
+          <svg id='youtube' xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+            <path d="M9.279 13.52h-.939v5.027h-.908v-5.027h-.94v-.854h2.788v.854zm5.395 1.721v2.406c0 .537-.2.954-.736.954-.296 0-.541-.108-.767-.388v.333h-.813v-5.88h.813v1.893c.183-.222.429-.405.718-.405.59 0 .785.499.785 1.087zm-.83.049c0-.146-.027-.257-.086-.333-.098-.129-.279-.143-.42-.071l-.167.132v2.703l.19.153c.132.066.324.071.413-.045.046-.061.069-.161.069-.299v-2.24zm-2.347-5.859c.229 0 .354-.183.354-.431v-2.119c0-.255-.111-.434-.371-.434-.237 0-.353.185-.353.434v2.119c.001.24.137.431.37.431zm-.733 8.07c-.099.123-.317.325-.475.325-.172 0-.215-.118-.215-.292v-3.325h-.805v3.626c0 .88.597.885 1.031.636.16-.092.315-.227.464-.403v.479h.807v-4.338h-.807v3.292zm13.236-12.501v14c0 2.761-2.238 5-5 5h-14c-2.761 0-5-2.239-5-5v-14c0-2.761 2.239-5 5-5h14c2.762 0 5 2.239 5 5zm-10.566 4.427c0 .45.137.813.592.813.256 0 .611-.133.979-.569v.503h.847v-4.554h-.847v3.457c-.104.129-.333.341-.498.341-.182 0-.226-.124-.226-.307v-3.491h-.847v3.807zm-3.177-2.621v2.233c0 .803.419 1.22 1.24 1.22.682 0 1.218-.456 1.218-1.22v-2.233c0-.713-.531-1.224-1.218-1.224-.745 0-1.24.493-1.24 1.224zm-3.155-2.806l1.135 3.67v2.504h.953v-2.504l1.11-3.67h-.969l-.611 2.468-.658-2.468h-.96zm11.564 11.667c-.014-2.978-.232-4.116-2.111-4.245-1.734-.118-7.377-.118-9.109 0-1.876.128-2.098 1.262-2.111 4.245.014 2.978.233 4.117 2.111 4.245 1.732.118 7.375.118 9.109 0 1.877-.129 2.097-1.262 2.111-4.245zm-1.011-.292v1.104h-1.542v.818c0 .325.027.607.352.607.34 0 .36-.229.36-.607v-.301h.83v.326c0 .836-.358 1.342-1.208 1.342-.771 0-1.164-.561-1.164-1.342v-1.947c0-.753.497-1.275 1.225-1.275.773-.001 1.147.491 1.147 1.275zm-.83-.008c0-.293-.062-.508-.353-.508-.299 0-.359.21-.359.508v.439h.712v-.439z" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="block_padding">
+        <button id='contact'>
+          <a href="mailto:info@urbonera.com"> CONTACTANOS </a>
+        </button>
+      </div>
+    </footer>
+
+    <div id="cooperacion" class="background_white">
+      <h3 class="block_padding">
+        En cooperación con
+      </h3>
+
+      <div class="partners">
+        <div>
+          <div>
+            <a href="https://urbonera.com/espana/" target="_blank">
+              <img id="urbonera" src="resources/logos/urbonera.jpg" alt="urbonera la abonera urbana logo">
             </a>
-          </button>
+          </div>
+
+          <div id="connectHort">
+            <div>
+              <a href="https://www.instagram.com/connecthort/" target="_blank">
+                <img id="connectHort_logo" class="border_partners" src="resources/logos/connectHort.jpg" alt="ConnectHort logo">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <a href="http://www.bcnsostenible.cat/es/web/punt/urbonera-la-abonera-urbana" target="_blank">
+              <img id="bcnsostenible" class="border_partners" src="resources/logos/bcnsostenible.jpg" alt="barcelona mas sostenible logo">
+            </a>
+          </div>
+
+          <div class="">
+            <a href="#">
+              <img id='bcnactiva' class="border_partners" src="resources/logos/barcelonaActiva.png" alt="">
+            </a>
+
+          </div>
         </div>
       </div>
+    </div>
 
-      <hr>
-
-      <div id='credits_rights'>
-        AbonoKm0® • All rights reserved
-      </div>
-
+    <div id='credits_rights'>
+      AbonoKm0® • All rights reserved
+    </div>
   </main>
-
 </body>
 
 </html>
