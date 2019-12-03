@@ -89,8 +89,8 @@ nav {
   top: 0;
   z-index: 10;
   box-shadow: 0 1px 10px 1px gray;
-}
-#logo {
+  /* display: flex; */
+  /* justify-content: space-around; */
   background: rgb(245, 249, 247);
 }
 #logo a {
@@ -111,10 +111,7 @@ nav {
   }
 }
 #slogan {
-  display: flex;
-  justify-content: space-between;
-  max-width: 20em;
-  margin: 0 auto;
+
 }
 #economia_circular_title {
   background: rgb(66, 149, 75);
