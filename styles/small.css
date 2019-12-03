@@ -1,8 +1,8 @@
-@media screen and (min-width: 601px) and (max-width: 56em) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   /* layout */
-  .full_height {
+  /* .full_height {
     min-height: calc(100vh - 4.4em);
-  }
+  } */
   div.display_flex_evenly {
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
   }
   /* styling */
   .text_padding {
-    padding: 2em 5em 2em 5em;
+    padding: 2em 4em 2em 4em;
   }
   .margin {
     margin: 2em 0 2em 0;
@@ -70,8 +70,8 @@
   }
 }
 
-/* desktop 56em = (more or less 960px) */
-@media screen and (min-width: 56em) {
+/*  */
+@media screen and (min-width: 1025px) {
   h1 {
     font-size: 2.75em;
   }
@@ -121,7 +121,7 @@
   }
   /* images */
   #ciclo {
-    height: 35em;
+    height: 31em;
     border-radius: 5em;
   }
   #restos_organicos {

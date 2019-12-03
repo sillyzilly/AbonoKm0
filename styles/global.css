@@ -113,6 +113,8 @@ nav {
 #slogan {
   display: flex;
   justify-content: space-between;
+  max-width: 20em;
+  margin: 0 auto;
 }
 #economia_circular_title {
   background: rgb(66, 149, 75);
